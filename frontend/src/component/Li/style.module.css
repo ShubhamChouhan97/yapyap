@@ -1,0 +1,37 @@
+li {
+  cursor: pointer;
+  list-style: none;
+}
+
+.listItem {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+
+/* Tooltip Default State */
+.tooltip {
+  position: absolute;
+  left: 180%;
+  /* top: 100%; */
+  transform: translateX(-50%) translateY(5px);
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  white-space: nowrap;
+  font-size: 14px;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.3s ease, transform 0.2s ease;
+  pointer-events: none; /* Prevents accidental hovering on tooltip */
+}
+
+/* Show tooltip only when hovering over the button */
+.listItem:hover .tooltip {
+  z-index: 2000;
+  visibility: visible;
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}

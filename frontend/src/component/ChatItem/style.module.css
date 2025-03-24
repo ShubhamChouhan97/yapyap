@@ -1,0 +1,62 @@
+.chatmain{
+
+    display: flex;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    cursor: pointer;
+}
+.deee{
+    margin-left: 5px;
+}
+.nametime{
+    width: 360px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.chatname{
+    font-size: 17px;
+    font-weight: 550;
+}
+.lastMessage{
+    color: #5f6368;
+}
+.imgdiv{
+    margin-left: 15px;
+    position: relative;
+    width: 55px;
+    height: 50px;
+}
+/* className="absolute top-0 right-0 w-3 h-3 rounded-full border-2 border-white" */
+.greendot{
+    right: 12px;
+    border-radius: 50%;
+    z-index: 2000;
+position: absolute;
+top:34px;
+width: 8px;
+height: 8px;
+}
+.chatmain img{
+    margin: 0;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+}
+.bot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.unread{
+    width:23px;
+    height: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 15px;
+    border-radius: 50%;
+     background-color: #25D366;
+}

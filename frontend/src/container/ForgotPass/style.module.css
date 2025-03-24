@@ -1,0 +1,94 @@
+.main{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.center{
+    background-color: #eeeeee;
+    height: auto;
+    width: 25%;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 20px;
+}
+.iinp {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.inputbox {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    width: 80%;
+    height: 40px;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 10px;
+}
+p{
+    margin-left: 5px;
+}
+.inputcap{
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 10px;
+}
+.btn {
+    cursor: pointer;
+    margin-top: 20px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+.btn button {
+    color: #ffff;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #26d367;
+    border: none;
+    cursor: pointer;
+}
+
+.signupText {
+    margin-top: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #2bc265;
+    font-weight: bold;
+  }
+  
+  .signupText:hover {
+    opacity: 0.8;
+  }
+  .loader {
+    border: 4px solid rgba(255, 255, 255, 0.3);
+    border-top: 4px solid #fff;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    animation: spin 1s linear infinite;
+    display: inline-block;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  .refresh{
+    cursor: pointer;
+  }
+  

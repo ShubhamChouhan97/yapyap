@@ -1,0 +1,24 @@
+.dp{
+    margin-left: 20px;
+    width: 40px;
+    height: 40px;
+}
+.dp img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.statusmy{
+    display: flex;
+}
+.details{
+    margin-left: 10px;
+    margin-top: 5;
+}
+.p1{
+    font-size: 18px;
+}
+.p2{
+    font-size: 15px;
+    color: #787575;
+}

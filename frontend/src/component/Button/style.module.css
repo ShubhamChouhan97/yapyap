@@ -1,0 +1,21 @@
+.selectbtnn{
+    background-color: #e5e8ec;
+    margin-left:10px ;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    border: none;
+    color: #5f6368;
+    outline: none;
+    min-width: 40px;
+    justify-content: center;
+}
+/* .selectbtnn:hover{
+    background-color: #E7FCE3;
+    color: #258069;
+} */
+.activeButton {
+    background-color: #25d366; /* Green when active */
+    color: white;
+  }

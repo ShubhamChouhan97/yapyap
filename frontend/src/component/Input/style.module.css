@@ -1,0 +1,12 @@
+input{
+    background:none;
+    height: 25px;
+    margin-top: 0;
+    padding-top: 0;
+    border: none;
+    width: 100%;
+    outline: none;
+}
+.inputContainer{
+    width: 100%;
+}

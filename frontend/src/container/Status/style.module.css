@@ -1,0 +1,42 @@
+.status{
+    /* background-color: #FFFFFF; */
+    background-color: #dbdddf;
+    width: 40%;
+    height: 100vh;
+    overflow: hidden;
+
+}
+.top{
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+}
+.svgdiv{
+    cursor: pointer;
+    /* background-color: aqua; */
+    height: 28px;
+   margin-left: 300px;
+}
+.top p{
+    margin: 15px;
+    font-weight: 550;
+     font-size: 27px;
+}
+.mystatus{
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 8%;
+    display: flex;
+    align-items: center;
+    /* background-color: red; */
+}
+.otherstatus{
+    overflow-y: scroll;
+    background-color: #FFFFFF;
+    margin-top: 10px;
+    width: 100%;
+    height: 90%;
+}
+::-webkit-scrollbar{
+   display: none;
+}

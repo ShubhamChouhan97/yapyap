@@ -1,0 +1,36 @@
+.chatlisttt {
+    width: 100%;
+    height: 100%; /* Full viewport height */
+    display: fl;
+    flex-direction: column;
+    overflow: hidden; /* Prevents extra scrolling on the main container */
+}
+
+.chatlistitemc {
+    overflow-y: scroll; /* Enables vertical scrolling */
+    max-height: calc(100vh - 60px); /* Adjust based on any header/footer height */
+    padding: 5px;
+}
+
+/* Scrollbar Styling for Webkit Browsers */
+.chatlistitemc::-webkit-scrollbar {
+    display: none;
+    width: 6px;
+}
+
+.chatlistitemc::-webkit-scrollbar-thumb {
+    display: none;
+    background: #888;
+    border-radius: 5px;
+}
+
+.chatlistitemc::-webkit-scrollbar-thumb:hover {
+    display: none;
+    background: #555;
+}
+.empty{
+    font-size: x-large;
+    width: 45%;
+    margin-top: 180px;
+    /* background-color: red; */
+}
